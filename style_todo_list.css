@@ -1,0 +1,50 @@
+title {
+  font-size: 30px;
+}
+
+body {
+  font-family: Arial;
+}
+
+.todo-input-grid,
+.js-todoList {
+  display: grid;
+  grid-template-columns: 30px 200px 150px 100px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.todo-input-grid {
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+.js-due-time-input,
+.js-due-date-input,
+.js-todo-input {
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+
+.button-add {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.button-delete {
+  background-color: darkred;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100px;
+  cursor: pointer;
+}
